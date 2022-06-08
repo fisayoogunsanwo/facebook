@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hold my Beer.</title>
+    <link rel="stylesheet" media="all" href="./style.css">
+</head>
+
+    <body>
+      <div id="signupform" >
+        <form>
+          <div id="signupbox">
+            <div id="head">
+              <div><h1>Sign Up</h1>
+              <span id="info">It's quick and easy.</span>
+              </div> 
+              <button id="close" type="button"><strong> X</strong></button>
+            </div>
+            
+            <div id="line2"></div>
+
+            <!-- Info Input -->
+
+            <div id="firLine">
+              <input class="infoInput" type="text" placeholder="First name" /> 
+              <input class="infoInput" type="text" placeholder="Surname" />
+            </div>
+
+          <div id="secLine">
+              <input class="infoInput" type="text" placeholder="Mobile number or email address" /> 
+            </div>
+
+            <div id="thLine">
+              <input class="infoInput" type="password" placeholder="New password" /> 
+            </div>
+
+            <!-- Option Input -->
+
+            <div id="dob">
+              Date of Birth
+            </div>
+
+            <div id="dobLine">
+              
+              <select id="day" class="optionInput">
+                <option>Day</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+              </select>
+
+              <select id="month" class="optionInput">
+                <option>Month</option>
+                <option>January</option>
+                <option>February</option>
+                <option>March</option>
+              </select>
+
+              <select id="year" class="optionInput">
+                <option>Year</option>
+                <option>1990</option>
+                <option>1991</option>
+                <option>1992</option>
+              </select>
+
+            </div>
+
+            <div id="gender">
+              Gender
+            </div>
+
+            <div id="genderLine">
+              <button id="female" class="optionInput" type="button"><label>Female</label>
+                <input id="fem" type="radio" placeholder="what gender?"/>  </button>
+        
+              <button id="male" class="optionInput" type="button" ><label>Male</label>
+                <input type="radio"  />  </button>
+
+              <button id="custom" class="optionInput" id="customButton" type="button"><label>Custom</label>
+                <input type="radio" />  </button>
+            </div>
+
+            <div id="customGender" style="display: none;">
+              <select class="optionInput">
+                <option>
+                  Select your pronoun
+                </option>
+                <option>
+                  She: "Wish her a happy birthday!"
+                </option>
+                <option>
+                  He: "Wish him a happy birthday!"
+                </option>
+                <option>
+                  They: "Wish them a happy birthday!"
+                </option>
+              </select>
+
+              <p id="pronoun">Your pronoun is visible to everyone.</p>
+
+              <input class="infoInput" type="text" placeholder="Gender (optional)"  />
+            </div>
+
+            <p id="terms">By clicking Sign Up, you agree to our <a class="policy" href="#">Terms</a>,
+            <a  class="policy" href="#">Data Policy</a>
+            and 
+            <a class="policy" href="#">Cookie Policy</a>.
+            <br>You may receive SMS notifications from us and can opt out at any time.</p>
+
+            <div>
+              <button id="signupButton">Sign Up</button>
+            </div>
+            
+          </div>
+      </form>
+    </div>
+
+
+    <script src="./logic.js"></script>
+    </body>
+    
+</html>

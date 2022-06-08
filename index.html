@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook | Fisayo</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+    <body>
+        <div id="mainbox">
+            <div id="facebook">
+              <img id="facebooklogo" src="./img/facebook.svg" alt="Facebook Image" >
+              <br><span id="facebookinfo">Facebook helps you connect and <br> share with the people in your life.</span>
+            </div>
+
+            <form>
+              <div>
+              <div id="loginbox">
+              <p id="p4"><input id="in1" type="email" placeholder="Email Address or Phone Number" /></p>
+
+              <div id="emailError" class="error">
+
+                The email address or mobile number you entered isn't connected to an account. Find your account and log in.
+              </div>
+
+              <p id="p5"><input id="in2" type="password" placeholder="Password"/></p>
+              <p id="p1"><button id="b1">Log In</button></p>
+              <p><a href="#">Forgotten Password?</a></p>
+              <div id="line"></div>
+              <p id="p3"><button type="button"
+                id="b3">Create New Account</button>
+                
+              </div>
+              <span id="last"><a href="#" id="page"><b>Create a Page</b></a> for a celebrity, brand or business.</span>
+
+            </div>
+            </form>
+            </p>
+          
+        </div>
+
+        
+        <div id="signupform" >
+          <form>
+            <div id="signupbox">
+              <div id="head">
+                <div><h1>Sign Up</h1>
+                <span id="info">It's quick and easy.</span>
+                </div> 
+                <button id="close" type="button"><strong> X</strong></button>
+              </div>
+              
+              <div id="line2"></div>
+
+              <!-- Info Input -->
+
+              <div id="firLine">
+                <input class="infoInput" type="text" placeholder="First name" /> 
+                <input class="infoInput" type="text" placeholder="Surname" />
+              </div>
+
+            <div id="secLine">
+                <input class="infoInput" type="text" placeholder="Mobile number or email address" /> 
+              </div>
+
+              <div id="thLine">
+                <input class="infoInput" type="password" placeholder="New password" /> 
+              </div>
+
+              <!-- Option Input -->
+
+              <div id="dob">
+                Date of Birth
+              </div>
+
+              <div id="dobLine">
+              
+                <select id="day" class="optionInput">
+                  <option>Day</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                </select>
+  
+                <select id="month" class="optionInput">
+                  <option>Month</option>
+                  <option>January</option>
+                  <option>February</option>
+                  <option>March</option>
+                </select>
+  
+                <select id="year" class="optionInput">
+                  <option>Year</option>
+                  <option>1990</option>
+                  <option>1991</option>
+                  <option>1992</option>
+                </select>
+  
+              </div>
+
+              <div id="gender">
+                Gender
+              </div>
+
+              <div id="genderLine">
+              <label for="fem">Female</label>
+                  <input id="fem" type="radio" name="gender"/>  
+          
+                <label for="mal">Male</label>
+                  <input id="mal" type="radio"  name="gender"/>  
+  
+                <label for="cus">Custom</label>
+                  <input id="cus" type="radio" name="gender"/>  
+              </div>
+
+              <div id="customGender" >
+                <select class="optionInput">
+                  <option>
+                    Select your pronoun
+                  </option>
+                  <option>
+                    She: "Wish her a happy birthday!"
+                  </option>
+                  <option>
+                    He: "Wish him a happy birthday!"
+                  </option>
+                  <option>
+                    They: "Wish them a happy birthday!"
+                  </option>
+                </select>
+
+                <p id="pronoun">Your pronoun is visible to everyone.</p>
+
+                <input class="infoInput" type="text" placeholder="Gender (optional)"  />
+              </div>
+
+              <p id="terms">By clicking Sign Up, you agree to our <a class="policy" href="#">Terms</a>,
+              <a  class="policy" href="#">Data Policy</a>
+              and 
+              <a class="policy" href="#">Cookie Policy</a>.<br>
+              You may receive SMS notifications from us and can opt out at any time.</p>
+
+              <div>
+                <button type="button" id="signupButton">Sign Up</button>
+              </div>
+              
+            </div>
+        </form>
+      </div>
+      <script src="./logic.js"></script>
+    </body>
+    
+</html>
